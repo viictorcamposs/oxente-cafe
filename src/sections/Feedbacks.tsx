@@ -7,19 +7,19 @@ const feedbacks = [
     id: 1,
     src: "/assets/feedback-1.png",
     width: 362,
-    height: 31,
+    height: 315,
   },
   {
     id: 2,
     src: "/assets/feedback-2.png",
     width: 346,
-    height: 31,
+    height: 315,
   },
   {
     id: 3,
     src: "/assets/feedback-3.png",
     width: 362,
-    height: 31,
+    height: 315,
   },
   {
     id: 4,
@@ -63,16 +63,16 @@ export default function Feedbacks() {
         {feedbacks.map((feedback) => (
           <Image
             key={`feedback_${feedback.id}`}
-            src={feedback.src}
             width={feedback.width}
             height={feedback.height}
+            src={feedback.src}
             alt="Depoimento"
           />
         ))}
       </Marquee>
 
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#251F1A]" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-[#251F1A]" />
+      <div className="hidden lg:block pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#251F1A]" />
+      <div className="hidden lg:block pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-[#251F1A]" />
     </section>
   );
 }

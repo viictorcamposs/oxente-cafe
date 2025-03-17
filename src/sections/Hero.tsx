@@ -8,14 +8,14 @@ export default function Hero() {
     <section className="relative md:flex md:flex-col pt-[42px] overflow-hidden md:pt-14 md:h-[862px] bg-[#FAF0E3]">
       <h1 className="font-primary text-[42px]/[42px] md:text-[58px]/[52px] tracking-[-1.25px] md:tracking-[-1.74px] text-center">
         O Nordeste tem{" "}
-        <span className="md:flex md:gap-3 justify-center">
+        <span className="justify-center md:flex md:gap-3">
           <span className="block md:inline relative text-[#B27944]">
             Café Especial
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 201 6"
               fill="none"
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 translate-y-2.5 md:translate-y-3.5 w-[200px] md:w-[275px]"
+              className="absolute top-[calc(50%+0.875rem)] md:top-[calc(50%+1rem)] left-1/2 -translate-x-1/2 w-[200px] md:w-[275px]"
             >
               <path
                 d="M0 4.10572C1.92123 4.10572 53.0341 2.43715 78.3503 1.60286L158.931 4.10572L200.229 1.60286"
@@ -65,7 +65,7 @@ export default function Hero() {
             </h2>
 
             <p className="text-center lg:text-lg lg:text-left max-w-[347px] lg:max-w-full mx-auto lg:ml-0">
-              <span className="italic underline font-semibold">
+              <span className="italic font-semibold underline">
                 Valorizamos os produtores locais, selecionamos grãos com rigor e
                 torramos artesanalmente
               </span>{" "}
@@ -74,7 +74,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="w-full lg:w-fit ml-auto">
+          <div className="w-full ml-auto lg:w-fit">
             <h3 className="text-center lg:text-2xl mt-5 lg:mt-0 mb-3 lg:mb-5 tracking-[-1px] font-bold text-[20px]">
               Bora sentir esse sabor?
             </h3>
@@ -97,7 +97,7 @@ export default function Hero() {
         height={418}
         src="/assets/hero-design.png"
         alt="Detalhe de design"
-        className="hidden lg:flex absolute bottom-0 left-0"
+        className="absolute bottom-0 left-0 hidden lg:flex w-full aspect-[1928/418] h-[418px]"
       />
 
       <Image

@@ -16,7 +16,7 @@ export default function Methodology() {
       </div>
 
       <div className="relative z-10 lg:grid lg:grid-cols-2 lg:gap-2 space-y-3 lg:space-y-0 mt-4 mb-10 w-fit lg:w-full lg:max-w-[1004px] mx-auto">
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +126,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@ export default function Methodology() {
           </p>
         </div>
 
-        <div className="w-full max-w-[378px] lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
+        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
           <div className="flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"

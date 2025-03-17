@@ -9,8 +9,8 @@ export default function Footer() {
   return (
     <footer className="relative pt-[42px] lg:pt-32 overflow-hidden bg-[#251F1A]">
       <div className="relative px-5 pb-12 lg:pb-[100px] space-y-[72px] lg:space-y-[160px]">
-        <div className="relative w-full max-w-[372px] lg:max-w-[1065px] mx-auto h-[634px] lg:h-[436px] pt-[52px] px-8 lg:px-20 bg-[#F8EDDE]">
-          <h3 className="font-primary text-6xl lg:text-9xl">Dúvidas?</h3>
+        <div className="relative w-full max-w-[372px] lg:max-w-[1065px] mx-auto h-[634px] lg:h-[436px] pt-[42px] lg:pt-[52px] px-8 lg:px-20 overflow-hidden lg:overflow-visible bg-[#F8EDDE]">
+          <h3 className="text-6xl font-primary lg:text-9xl">Dúvidas?</h3>
 
           <p className="text-base/[22px] lg:text-lg/[28px] mb-5 lg:mb-8 max-w-[415px]">
             <span className="font-medium">
@@ -32,7 +32,7 @@ export default function Footer() {
             </span>
           </Link>
 
-          <div className="absolute right-0 bottom-0 w-full lg:w-[532px] aspect-[363/325] lg:aspect-[532/476]">
+          <div className="absolute right-0 bottom-0 w-full lg:w-[532px] aspect-[363/325] lg:aspect-[532/476] translate-y-1 lg:translate-y-0.5">
             <Image
               fill
               src="/assets/duvidas.png"
@@ -149,7 +149,7 @@ export default function Footer() {
       {/* Images para Design */}
 
       <div className="px-5 py-4 lg:py-9 bg-[#B27944]">
-        <p className="text-sm lg:text-base font-medium text-center">
+        <p className="text-sm font-medium text-center lg:text-base">
           OXENTE CAFÉ - CNPJ: 41.374.104/0001-43 ©{" "}
           <span className="block lg:inline">
             Todos os direitos reservados. 2025
