@@ -4,8 +4,6 @@ import Methodology from "@/sections/Methodology";
 import Feedbacks from "@/sections/Feedbacks";
 import Faq from "@/sections/Faq";
 
-import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
     <main>
@@ -18,8 +16,6 @@ export default function Home() {
       <Feedbacks />
 
       <Faq />
-
-      <Footer />
     </main>
   );
 }

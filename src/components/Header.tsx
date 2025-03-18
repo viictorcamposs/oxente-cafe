@@ -24,35 +24,35 @@ export default function Header() {
 
         <nav className="hidden lg:flex items-center space-x-[28px]">
           <Link
-            href={"/"}
+            href="/"
             className="text-lg hover:underline -tracking-[0.54px] text-[#FCF4E9] hover:text-[#D4AF85]"
           >
             Início
           </Link>
 
           <Link
-            href={"/"}
+            href="/sobre-nos"
             className="text-lg hover:underline -tracking-[0.54px] text-[#FCF4E9] hover:text-[#D4AF85]"
           >
             Sobre nós
           </Link>
 
           <Link
-            href={"/"}
+            href="/nossos-cafes"
             className="text-lg hover:underline -tracking-[0.54px] text-[#FCF4E9] hover:text-[#D4AF85]"
           >
             Nossos cafés
           </Link>
 
           <Link
-            href={"/"}
+            href="/contatos"
             className="text-lg hover:underline -tracking-[0.54px] text-[#FCF4E9] hover:text-[#D4AF85]"
           >
             Contatos
           </Link>
 
           <Link
-            href={"/"}
+            href="/"
             className="flex items-center justify-center gap-2.5 w-[180px] h-[50px] bg-[#D4AF85]"
           >
             <FaWhatsapp size={22} color="#251F1A" />
