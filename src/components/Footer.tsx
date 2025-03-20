@@ -9,10 +9,12 @@ export default function Footer() {
   return (
     <footer className="relative pt-[42px] lg:pt-32 overflow-hidden bg-[#251F1A]">
       <div className="relative px-5 pb-12 lg:pb-[100px] space-y-[72px] lg:space-y-[160px]">
-        <div className="relative w-full max-w-[372px] lg:max-w-[1065px] mx-auto h-[634px] lg:h-[436px] pt-[42px] lg:pt-[52px] px-8 lg:px-20 overflow-hidden lg:overflow-visible bg-[#F8EDDE]">
-          <h3 className="text-6xl font-primary lg:text-9xl">Dúvidas?</h3>
+        <div className="relative w-full max-w-[372px] lg:max-w-[1065px] mx-auto h-[650px] lg:h-[436px] pt-[42px] lg:pt-[52px] px-8 lg:px-20 overflow-hidden lg:overflow-visible">
+          <h3 className="relative z-20 text-6xl font-primary lg:text-9xl">
+            Dúvidas?
+          </h3>
 
-          <p className="text-base/[22px] lg:text-lg/[28px] mb-5 lg:mb-8 max-w-[415px]">
+          <p className="relative z-10 text-base/[22px] lg:text-lg/[28px] mb-5 lg:mb-8 max-w-[415px]">
             <span className="font-medium">
               Quer saber mais sobre nossos cafés, torra sob demanda ou métodos
               de preparo?
@@ -21,24 +23,49 @@ export default function Footer() {
             atendimento é tão especial quanto o café!
           </p>
 
-          <Link
-            href=""
-            className="flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px] bg-[#B27944]"
+          <a
+            href="https://wa.me/558182799240"
+            className="relative z-10 flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px]"
           >
-            <FaWhatsapp size={18} color="#FDF8F1" className="lg:hidden" />
-            <FaWhatsapp size={25} color="#FDF8F1" className="hidden lg:block" />
-            <span className="text-sm lg:text-xl font-semibold -tracking-[0.4px] text-[#FDF8F1]">
+            <FaWhatsapp
+              size={18}
+              color="#FDF8F1"
+              className="relative z-10 lg:hidden"
+            />
+            <FaWhatsapp
+              size={25}
+              color="#FDF8F1"
+              className="relative z-10 hidden lg:block"
+            />
+
+            <span className="relative z-10 text-sm lg:text-xl font-semibold -tracking-[0.4px] text-[#FDF8F1]">
               Fale conosco
             </span>
-          </Link>
 
-          <div className="absolute right-0 bottom-0 w-full lg:w-[532px] aspect-[363/325] lg:aspect-[532/476] translate-y-1 lg:translate-y-0.5">
+            <Image fill src="/assets/elementos/botao-4.png" alt="Design" />
+          </a>
+
+          <div className="absolute z-10 right-0 bottom-0 w-full lg:w-[532px] aspect-[363/325] lg:aspect-[532/476] -translate-y-2.5 lg:translate-y-0">
             <Image
               fill
               src="/assets/duvidas.png"
               alt="Mão segurando um pacote de café da Oxente Café"
             />
           </div>
+
+          <Image
+            fill
+            src="/assets/elementos/duvidas-1.png"
+            alt="Design"
+            className="lg:hidden"
+          />
+
+          <Image
+            fill
+            src="/assets/elementos/duvidas-2.png"
+            alt="Design"
+            className="max-[1024px]:hidden"
+          />
         </div>
 
         <div className="w-full max-w-[335px] lg:max-w-[1065px] lg:grid lg:grid-cols-[408px_1fr_1fr] lg:gap-11 space-y-8 lg:space-y-0 mx-auto">
@@ -56,12 +83,19 @@ export default function Footer() {
             </p>
 
             <div className="flex items-center gap-3 mt-3">
-              <div className="flex items-center justify-center w-11 h-11 rounded-full bg-[#D4AF85]">
+              <a
+                href="https://instagram.com/oxente.cafe/"
+                className="flex items-center justify-center w-11 h-11 rounded-full bg-[#D4AF85]"
+              >
                 <FaInstagram size={24} color="#251F1A" />
-              </div>
-              <div className="flex items-center justify-center w-11 h-11 rounded-full bg-[#D4AF85]">
+              </a>
+
+              <a
+                href=""
+                className="flex items-center justify-center w-11 h-11 rounded-full bg-[#D4AF85]"
+              >
                 <FaFacebookF size={24} color="#251F1A" />
-              </div>
+              </a>
             </div>
           </div>
 
@@ -104,28 +138,28 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="/"
+              href="/sobre-nos"
               className="block text-lg hover:text-[#D4AF85] hover:underline"
             >
               Sobre nós
             </Link>
 
             <Link
-              href="/"
+              href="/nossos-cafes"
               className="block text-lg hover:text-[#D4AF85] hover:underline"
             >
               Nossos cafés
             </Link>
 
             <Link
-              href="/"
+              href="/contatos"
               className="block text-lg hover:text-[#D4AF85] hover:underline"
             >
               Contatos
             </Link>
 
             <Link
-              href="/"
+              href="/politica-de-privacidade"
               className="block text-lg hover:text-[#D4AF85] hover:underline"
             >
               Política de privacidade

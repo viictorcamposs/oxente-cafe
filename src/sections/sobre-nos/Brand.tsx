@@ -4,8 +4,8 @@ export default function Brand() {
   return (
     <section className="relative px-5 py-24 lg:py-28 overflow-hidden bg-[#D0AC83]">
       <div className="relative lg:grid lg:grid-cols-2 w-full max-w-[378px] lg:max-w-[1060px] space-y-4 lg:space-y-5 mx-auto">
-        <div className="relative z-10 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 w-full space-y-2.5 max-w-[520px] bg-[#FAF0E3]">
-          <div className="flex items-center gap-3 lg:mb-4">
+        <div className="relative z-10 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 w-full space-y-2.5 max-w-[520px]">
+          <div className="relative z-10 flex items-center gap-3 lg:mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -25,7 +25,7 @@ export default function Brand() {
             </h3>
           </div>
 
-          <div className="space-y-6">
+          <div className="relative z-10 space-y-6">
             <p className="text-base/[22px] lg:text-lg">
               Nossa missão é simples, mas cheia de propósito: levar até você o
               verdadeiro sabor do café nordestino.
@@ -42,10 +42,12 @@ export default function Brand() {
               autenticidade a gente tem de sobra.
             </p>
           </div>
+
+          <Image fill src="/assets/elementos/brand-1.png" alt="Design" />
         </div>
 
-        <div className="relative z-10 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 lg:ml-auto w-full space-y-2.5 max-w-[520px] bg-[#FAF0E3]">
-          <div className="flex items-center gap-3 lg:mb-4">
+        <div className="relative z-10 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 lg:ml-auto w-full space-y-2.5 max-w-[520px]">
+          <div className="relative z-10 flex items-center gap-3 lg:mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -65,7 +67,7 @@ export default function Brand() {
             </h3>
           </div>
 
-          <div className="space-y-6">
+          <div className="relative z-10 space-y-6">
             <p className="text-base/[22px] lg:text-lg">
               Sonhamos grande, porque o Nordeste merece! Queremos ser referência
               em cafés especiais nordestinos, mostrando para o Brasil e para o
@@ -83,10 +85,12 @@ export default function Brand() {
               força e a excelência da nossa gente.
             </p>
           </div>
+
+          <Image fill src="/assets/elementos/brand-2.png" alt="Design" />
         </div>
 
-        <div className="relative z-10 lg:col-span-2 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 w-full space-y-2.5 bg-[#FAF0E3]">
-          <div className="flex items-center gap-3 lg:mb-4">
+        <div className="relative z-10 lg:col-span-2 py-6 lg:pt-9 lg:pb-16 px-7 lg:px-12 w-full space-y-2.5">
+          <div className="relative z-10 flex items-center gap-3 lg:mb-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -106,7 +110,7 @@ export default function Brand() {
             </h3>
           </div>
 
-          <ul className="pl-2.5 lg:grid lg:grid-cols-2">
+          <ul className="relative z-10 pl-2.5 lg:grid lg:grid-cols-2">
             <div className="lg:max-w-[450px]">
               <li className="relative pl-4 mb-0.5 font-semibold lg:text-lg">
                 <div className="absolute left-0 top-2.5 lg:top-3 w-1 lg:w-1.5 h-1 lg:h-1.5 rounded-full bg-[#251F1A]" />
@@ -183,6 +187,20 @@ export default function Brand() {
               </p>
             </div>
           </ul>
+
+          <Image
+            fill
+            src="/assets/elementos/brand-3.png"
+            alt="Design"
+            className="lg:hidden"
+          />
+
+          <Image
+            fill
+            src="/assets/elementos/brand-4.png"
+            alt="Design"
+            className="max-[1024px]::hidden"
+          />
         </div>
 
         <svg
@@ -206,14 +224,6 @@ export default function Brand() {
         src="/assets/tree-2.png"
         alt="Cacto"
         className="absolute bottom-0 left-0 lg:left-[5%]"
-      />
-
-      <Image
-        width={1928}
-        height={418}
-        src="/assets/hero-design.png"
-        alt="Detalhe de design"
-        className="absolute bottom-0 left-0 hidden lg:flex w-full aspect-[1928/418] h-[418px]"
       />
 
       <Image

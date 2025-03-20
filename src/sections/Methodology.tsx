@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 import { FaWhatsapp } from "react-icons/fa";
@@ -6,18 +5,20 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Methodology() {
   return (
     <section className="relative py-10 overflow-hidden lg:py-24 px-5 bg-[#D0AC83]">
-      <div className="relative z-10 w-full max-w-[380px] lg:max-w-[998px] py-5 lg:py-4 mx-auto bg-[#251F1A]">
-        <h2 className="text-center font-primary text-[42px]/[42px] lg:text-[52px]/[52px] tracking-[-0.84px] text-[#F6ECDF]">
+      <div className="relative z-10 w-full max-w-[380px] lg:max-w-[998px] py-5 lg:py-4 mx-auto">
+        <h2 className="relative z-10 text-center font-primary text-[42px]/[42px] lg:text-[52px]/[52px] tracking-[-0.84px] text-[#F6ECDF]">
           O que faz nosso{" "}
           <span className="block lg:inline text-[#B27944]">
             café ser especial?
           </span>
         </h2>
+
+        <Image fill src="/assets/elementos/methodology-1.png" alt="Design" />
       </div>
 
       <div className="relative z-10 lg:grid lg:grid-cols-2 lg:gap-2 space-y-3 lg:space-y-0 mt-4 mb-10 w-fit lg:w-full lg:max-w-[1004px] mx-auto">
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-100 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -37,14 +38,16 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             Selecionamos grãos a dedo, cultivados com dedicação por produtores
             nordestinos reconhecidos mundialmente pela qualidade de suas safras.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-2.png" alt="Design" />
         </div>
 
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-200 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -64,15 +67,17 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             Acompanhamos todo o processo produtivo para garantir um café 100%
             natural, cultivado sem o uso de agrotóxico e com total segurança
             para você.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-3.png" alt="Design" />
         </div>
 
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-200 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -92,14 +97,16 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             Nada de café parado! Só torramos os grãos após o seu pedido,
             garantindo frescor, aroma intenso e sabor equilibrado.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-4.png" alt="Design" />
         </div>
 
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-200 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -119,15 +126,17 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             O terroir nordestino proporciona cafés com notas sensoriais
             diferenciadas, resultando em sabores autênticos e cheios de
             identidade.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-5.png" alt="Design" />
         </div>
 
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-200 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -147,14 +156,16 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             Apoiamos pequenos produtores nordestinos, incentivando o comércio
             justo e garantindo um café de alta qualidade, do campo à xícara.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-6.png" alt="Design" />
         </div>
 
-        <div className="w-full max-w-[378px] hover:scale-110 duration-200 hover:shadow-2xl hover:z-50 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7 bg-[#F8EEE1]">
-          <div className="flex gap-3">
+        <div className="relative w-full max-w-[378px] hover:scale-110 duration-200 lg:max-w-[500px] space-y-1.5 lg:space-y-3 py-5 lg:py-8 px-6 lg:px-7">
+          <div className="relative z-10 flex gap-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="29"
@@ -174,23 +185,28 @@ export default function Methodology() {
             </h3>
           </div>
 
-          <p className="w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
+          <p className="relative z-10 w-full max-w-[334px] lg:max-w-full text-base/[22px] lg:text-lg">
             Atendimento sem burocracia, acolhedor e feito com o mesmo cuidado
             que temos com nossos cafés, porque acreditamos que um bom café
             sempre vem acompanhado de uma boa conversa.
           </p>
+
+          <Image fill src="/assets/elementos/methodology-7.png" alt="Design" />
         </div>
       </div>
 
-      <Link
-        href=""
-        className="relative z-10 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto bg-[#B27944]"
+      <a
+        href="https://wa.me/558182799240"
+        className="relative z-10 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto"
       >
-        <FaWhatsapp size={24} color="#FDF8F1" />
-        <span className="text-xl font-semibold -tracking-[0.6px] text-[#FDF8F1]">
+        <FaWhatsapp size={24} color="#FDF8F1" className="relative z-10" />
+
+        <span className="relative z-10 text-xl font-semibold -tracking-[0.6px] text-[#FDF8F1]">
           Fale conosco
         </span>
-      </Link>
+
+        <Image fill src="/assets/elementos/botao-4.png" alt="Design" />
+      </a>
 
       <Image
         width={714}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { FaGoogle, FaInstagram } from "react-icons/fa";
@@ -58,16 +57,18 @@ export default function Page() {
                 Atendimento rápido e direto
               </strong>
 
-              <Link
-                href=""
-                className="flex items-center justify-center gap-2.5 w-full max-w-[238px] h-12 bg-[#D4AF85]"
+              <a
+                href="https://wa.me/558182799240"
+                className="relative flex items-center justify-center gap-2.5 w-full max-w-[238px] h-12"
               >
-                <FaWhatsapp className="text-2xl text-[#251F1A]" />
+                <FaWhatsapp className="relative z-10 text-2xl text-[#251F1A]" />
 
-                <span className="text-base -tracking-[0.48px] font-semibold">
+                <span className="relative z-10 text-base -tracking-[0.48px] font-semibold">
                   Chamar no WhatsApp
                 </span>
-              </Link>
+
+                <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
+              </a>
             </div>
 
             <div className="space-y-4">
@@ -75,27 +76,31 @@ export default function Page() {
                 Acompanhe as novidades e interaja com a gente!
               </strong>
 
-              <Link
-                href=""
-                className="flex items-center justify-center gap-2.5 w-full max-w-[228px] h-12 bg-[#D4AF85]"
+              <a
+                href="https://instagram.com/oxente.cafe/"
+                className="relative flex items-center justify-center gap-2.5 w-full max-w-[228px] h-12"
               >
-                <FaInstagram className="text-2xl text-[#251F1A]" />
+                <FaInstagram className="relative z-10 text-2xl text-[#251F1A]" />
 
-                <span className="text-base -tracking-[0.48px] font-semibold">
+                <span className="relative z-10 text-base -tracking-[0.48px] font-semibold">
                   Seguir no Instagram
                 </span>
-              </Link>
 
-              <Link
+                <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
+              </a>
+
+              <a
                 href=""
-                className="flex items-center justify-center gap-2.5 w-full max-w-[218px] h-12 bg-[#D4AF85]"
+                className="relative flex items-center justify-center gap-2.5 w-full max-w-[218px] h-12"
               >
-                <FaFacebookF className="text-2xl text-[#251F1A]" />
+                <FaFacebookF className="relative z-10 text-2xl text-[#251F1A]" />
 
-                <span className="text-base -tracking-[0.48px] font-semibold">
+                <span className="relative z-10 text-base -tracking-[0.48px] font-semibold">
                   Seguir no Facebook
                 </span>
-              </Link>
+
+                <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
+              </a>
             </div>
 
             <div className="space-y-4">
@@ -103,16 +108,18 @@ export default function Page() {
                 Tem algo mais detalhado para falar?
               </strong>
 
-              <Link
-                href=""
-                className="flex items-center justify-center gap-2.5 w-full max-w-[208px] h-12 bg-[#D4AF85]"
+              <a
+                href="mailto:oxentecafebp@gmail.com"
+                className="relative flex items-center justify-center gap-2.5 w-full max-w-[208px] h-12"
               >
-                <MdOutlineMail className="text-2xl text-[#251F1A]" />
+                <MdOutlineMail className="relative z-10 text-2xl text-[#251F1A]" />
 
-                <span className="text-base -tracking-[0.48px] font-semibold">
+                <span className="relative z-10 text-base -tracking-[0.48px] font-semibold">
                   Manda um e-mail!
                 </span>
-              </Link>
+
+                <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
+              </a>
             </div>
 
             <div className="space-y-4">
@@ -120,16 +127,18 @@ export default function Page() {
                 Avalie a gente lá no Google Meu Negócio
               </strong>
 
-              <Link
-                href=""
-                className="flex items-center justify-center gap-2.5 w-full max-w-[176px] h-12 bg-[#D4AF85]"
+              <a
+                href="https://g.co/kgs/PQzjQ5Y"
+                className="relative flex items-center justify-center gap-2.5 w-full max-w-[176px] h-12"
               >
-                <FaGoogle className="text-xl text-[#251F1A]" />
+                <FaGoogle className="relative z-10 text-xl text-[#251F1A]" />
 
-                <span className="text-base -tracking-[0.48px] font-semibold">
+                <span className="relative z-10 text-base -tracking-[0.48px] font-semibold">
                   Ver no Google
                 </span>
-              </Link>
+
+                <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
+              </a>
             </div>
           </div>
 

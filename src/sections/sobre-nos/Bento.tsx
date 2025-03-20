@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Bento() {
   return (
-    <section className="pt-6 lg:pt-20 pb-20 px-5 bg-[#251F1A]">
+    <section className="pt-6 overflow-hidden lg:pt-20 pb-20 px-5 bg-[#251F1A]">
       <div className="space-y-12 lg:flex lg:justify-between max-w-[1060px] mx-auto">
         <Image
           width={437}

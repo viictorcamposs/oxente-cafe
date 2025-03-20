@@ -3,9 +3,80 @@ import Link from "next/link";
 
 import * as C from "@/components/ui/carousel";
 
+const carouselPhotos = [
+  {
+    key: 1,
+    src: "/assets/about-carousel-1.png",
+  },
+  {
+    key: 2,
+    src: "/assets/about-carousel-2.png",
+  },
+  {
+    key: 3,
+    src: "/assets/about-carousel-3.png",
+  },
+  {
+    key: 4,
+    src: "/assets/about-carousel-4.png",
+  },
+  {
+    key: 5,
+    src: "/assets/about-carousel-5.png",
+  },
+  {
+    key: 6,
+    src: "/assets/about-carousel-6.png",
+  },
+  {
+    key: 7,
+    src: "/assets/about-carousel-7.png",
+  },
+  {
+    key: 8,
+    src: "/assets/about-carousel-8.png",
+  },
+  {
+    key: 9,
+    src: "/assets/about-carousel-9.png",
+  },
+  {
+    key: 10,
+    src: "/assets/about-carousel-10.png",
+  },
+  {
+    key: 11,
+    src: "/assets/about-carousel-11.png",
+  },
+  {
+    key: 12,
+    src: "/assets/about-carousel-12.png",
+  },
+  {
+    key: 13,
+    src: "/assets/about-carousel-13.png",
+  },
+  {
+    key: 14,
+    src: "/assets/about-carousel-14.png",
+  },
+  {
+    key: 15,
+    src: "/assets/about-carousel-15.png",
+  },
+  {
+    key: 16,
+    src: "/assets/about-carousel-16.png",
+  },
+  {
+    key: 17,
+    src: "/assets/about-carousel-17.png",
+  },
+];
+
 export default function About() {
   return (
-    <section className="py-[72px] lg:pb-[78px] lg:pt-[104px] px-5 overflow-hidden bg-[#251F1A]">
+    <section className="pt-[72px] pb-32 lg:pb-[78px] lg:pt-[104px] px-5 overflow-hidden bg-[#251F1A]">
       <div className="max-w-[1108px] mx-auto space-y-[72px] lg:flex lg:justify-between">
         <div className="max-w-[350px] lg:max-w-[530px] mx-auto lg:ml-0">
           <h2 className="font-primary text-[42px]/[42px] lg:text-[52px]/[52px] tracking-[-0.84px] text-[#FCF4E9]">
@@ -46,66 +117,54 @@ export default function About() {
           </div>
 
           <Link
-            href=""
-            className="flex justify-center py-3 max-w-[250px] border-2 border-[#D4AF85] bg-[#B27944]"
+            href="/sobre-nos"
+            className="relative flex justify-center py-3 max-w-[250px]"
           >
-            <span className="text-lg -tracking-[0.9px] font-semibold text-[#FDF8F1]">
+            <span className="relative z-10 text-lg -tracking-[0.9px] font-semibold text-[#FDF8F1]">
               Saiba mais sobre a Oxente
             </span>
+
+            <Image fill src="/assets/elementos/botao-3.png" alt="Design" />
           </Link>
         </div>
 
-        <div className="relative w-full max-w-[340px] lg:max-w-[448px] lg:max-h-[560px] mx-auto lg:mr-0 aspect-[340/425] lg:aspect-[448/560]">
+        <div className="relative w-full">
           <C.Carousel
-            className="relative z-10 h-full w-full rounded-4xl overflow-hidden border-4 border-[#D4AF85]"
+            className="relative w-full max-w-[340px] lg:max-w-[448px] lg:max-h-[560px] mx-auto lg:mr-0 aspect-[340/425] lg:aspect-[448/560]"
             opts={{
               loop: true,
               containScroll: false,
             }}
           >
-            <C.CarouselContent className="-ml-0">
-              <C.CarouselItem className="pl-0">
-                <div className="relative w-full aspect-[340/425] h-full lg:aspect-[448/560]">
+            <C.CarouselContent className="absolute top-0 bottom-0 left-0 right-0 z-10 -ml-0">
+              {carouselPhotos.map((photo) => (
+                <C.CarouselItem
+                  key={photo.key}
+                  className="border-4 border-[#D4AF85] rounded-4xl overflow-hidden"
+                >
                   <Image
                     fill
-                    src="/assets/bento.png"
-                    alt="Bento, fundador do Oxente Café"
+                    src={photo.src}
+                    alt="Foto"
                     style={{ objectFit: "cover" }}
                   />
-                </div>
-              </C.CarouselItem>
-
-              <C.CarouselItem className="pl-0">
-                <div className="relative w-full aspect-[340/425] lg:aspect-[448/560]">
-                  <Image
-                    fill
-                    src="/assets/bento.png"
-                    alt="Bento, fundador do Oxente Café"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div>
-              </C.CarouselItem>
-
-              <C.CarouselItem className="pl-0">
-                <div className="relative w-full aspect-[340/425] lg:aspect-[448/560]">
-                  <Image
-                    fill
-                    src="/assets/bento.png"
-                    alt="Bento, fundador do Oxente Café"
-                    style={{ objectFit: "cover" }}
-                  />
-                </div>
-              </C.CarouselItem>
+                </C.CarouselItem>
+              ))}
             </C.CarouselContent>
-          </C.Carousel>
 
-          <Image
-            height={144}
-            width={145}
-            src="/assets/star-1.png"
-            alt="Estrela para design"
-            className="absolute -bottom-[60px] -left-[60px]"
-          />
+            <div className="absolute -bottom-11 z-50 w-[130px] left-1/2 -translate-x-1/2">
+              <C.CarouselPrevious className="w-10 lg:w-12 h-10 lg:h-12 left-0 bg-[#D4AF85] hover:bg-[#ad8e6b] border-[#D4AF85]" />
+              <C.CarouselNext className="w-10 lg:w-12 h-10 lg:h-12 right-0 bg-[#D4AF85] hover:bg-[#ad8e6b] border-[#D4AF85]" />
+            </div>
+
+            <Image
+              height={144}
+              width={145}
+              src="/assets/star-1.png"
+              alt="Estrela para design"
+              className="absolute -bottom-[60px] -left-[60px]"
+            />
+          </C.Carousel>
 
           <Image
             height={68}
