@@ -88,7 +88,7 @@ export default function Menu() {
         <div className="flex items-center w-full gap-2">
           <a
             href="https://wa.me/558182799240"
-            className="flex items-center justify-center w-full max-[400px]:max-w-[130px] max-w-[152px] gap-2 h-10 bg-[#D4AF85]"
+            className="flex items-center justify-center w-full max-[400px]:max-w-[130px] max-w-[152px] gap-2 h-10 bg-[url('/assets/elementos/botao.png')] bg-cover bg-center"
           >
             <FaWhatsapp
               size={16}
@@ -108,7 +108,7 @@ export default function Menu() {
 
           <a
             href="https://instagram.com/oxente.cafe/"
-            className="flex items-center justify-center w-full max-w-[188px] gap-2 h-10 bg-[#D4AF85]"
+            className="flex items-center justify-center w-full max-w-[188px] gap-2 h-10 bg-[url('/assets/elementos/botao.png')] bg-cover bg-center"
           >
             <FaInstagram
               size={16}

@@ -52,15 +52,13 @@ export default function Header() {
 
           <a
             href="https://wa.me/558182799240"
-            className="relative flex items-center justify-center gap-2.5 w-[180px] h-[50px]"
+            className="relative flex items-center justify-center gap-2.5 w-[175px] h-[42px] bg-[url('/assets/elementos/botao.png')] bg-cover bg-center"
           >
-            <FaWhatsapp size={22} color="#251F1A" className="relative z-10" />
+            <FaWhatsapp size={22} color="#251F1A" />
 
-            <span className="text-lg -tracking-[0.54px] font-semibold relative z-10">
+            <span className="text-lg -tracking-[0.54px] font-semibold">
               Fale conosco
             </span>
-
-            <Image fill src="/assets/elementos/botao.png" alt="Design" />
           </a>
         </nav>
       </div>

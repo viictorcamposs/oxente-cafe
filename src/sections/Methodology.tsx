@@ -197,15 +197,13 @@ export default function Methodology() {
 
       <a
         href="https://wa.me/558182799240"
-        className="relative z-10 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto"
+        className="relative z-10 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
       >
-        <FaWhatsapp size={24} color="#FDF8F1" className="relative z-10" />
+        <FaWhatsapp size={24} color="#FDF8F1" />
 
-        <span className="relative z-10 text-xl font-semibold -tracking-[0.6px] text-[#FDF8F1]">
+        <span className="text-xl font-semibold -tracking-[0.6px] text-[#FDF8F1]">
           Fale conosco
         </span>
-
-        <Image fill src="/assets/elementos/botao-4.png" alt="Design" />
       </a>
 
       <Image

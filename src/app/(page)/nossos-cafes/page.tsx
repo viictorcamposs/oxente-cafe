@@ -391,15 +391,16 @@ export default function Page() {
                 </p>
               </A.AccordionContent>
 
-              <Image
-                fill
-                src="/assets/elementos/cafes-1.png"
-                alt="Design"
-                className="lg:hidden"
-                style={{
-                  objectFit: "cover",
-                }}
-              />
+              <svg
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="absolute top-0 left-0 w-full h-full lg:hidden"
+              >
+                <path
+                  d="M4.00003 3.77616L67.4453 4.51252H152.945L342.876 0L436 6.76878L433.555 242.172L430 447.685L436 652.811L433.555 860.387L358 866L219.5 860.387L111.185 862.643L4.00003 860.387V453.979L3.05176e-05 232.444L4.00003 3.77616Z"
+                  fill="#F5EBDF"
+                />
+              </svg>
 
               <svg
                 fill="none"
@@ -483,15 +484,16 @@ export default function Page() {
                 </p>
               </A.AccordionContent>
 
-              <Image
-                fill
-                src="/assets/elementos/cafes-1.png"
-                alt="Design"
-                className="lg:hidden"
-                style={{
-                  objectFit: "cover",
-                }}
-              />
+              <svg
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="absolute top-0 left-0 w-full h-full lg:hidden"
+              >
+                <path
+                  d="M4.00003 3.77616L67.4453 4.51252H152.945L342.876 0L436 6.76878L433.555 242.172L430 447.685L436 652.811L433.555 860.387L358 866L219.5 860.387L111.185 862.643L4.00003 860.387V453.979L3.05176e-05 232.444L4.00003 3.77616Z"
+                  fill="#F5EBDF"
+                />
+              </svg>
 
               <svg
                 fill="none"
@@ -576,15 +578,16 @@ export default function Page() {
                 </p>
               </A.AccordionContent>
 
-              <Image
-                fill
-                src="/assets/elementos/cafes-1.png"
-                alt="Design"
-                className="lg:hidden"
-                style={{
-                  objectFit: "cover",
-                }}
-              />
+              <svg
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="absolute top-0 left-0 w-full h-full lg:hidden"
+              >
+                <path
+                  d="M4.00003 3.77616L67.4453 4.51252H152.945L342.876 0L436 6.76878L433.555 242.172L430 447.685L436 652.811L433.555 860.387L358 866L219.5 860.387L111.185 862.643L4.00003 860.387V453.979L3.05176e-05 232.444L4.00003 3.77616Z"
+                  fill="#F5EBDF"
+                />
+              </svg>
 
               <svg
                 fill="none"
@@ -663,15 +666,16 @@ export default function Page() {
                 </p>
               </A.AccordionContent>
 
-              <Image
-                fill
-                src="/assets/elementos/cafes-1.png"
-                alt="Design"
-                className="lg:hidden"
-                style={{
-                  objectFit: "cover",
-                }}
-              />
+              <svg
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="absolute top-0 left-0 w-full h-full lg:hidden"
+              >
+                <path
+                  d="M4.00003 3.77616L67.4453 4.51252H152.945L342.876 0L436 6.76878L433.555 242.172L430 447.685L436 652.811L433.555 860.387L358 866L219.5 860.387L111.185 862.643L4.00003 860.387V453.979L3.05176e-05 232.444L4.00003 3.77616Z"
+                  fill="#F5EBDF"
+                />
+              </svg>
 
               <svg
                 fill="none"

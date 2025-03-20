@@ -199,7 +199,7 @@ export default function Brand() {
             fill
             src="/assets/elementos/brand-4.png"
             alt="Design"
-            className="max-[1024px]::hidden"
+            className="max-[1024px]:hidden"
           />
         </div>
 

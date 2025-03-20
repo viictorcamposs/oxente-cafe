@@ -25,24 +25,14 @@ export default function Footer() {
 
           <a
             href="https://wa.me/558182799240"
-            className="relative z-10 flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px]"
+            className="relative z-10 flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px] bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
           >
-            <FaWhatsapp
-              size={18}
-              color="#FDF8F1"
-              className="relative z-10 lg:hidden"
-            />
-            <FaWhatsapp
-              size={25}
-              color="#FDF8F1"
-              className="relative z-10 hidden lg:block"
-            />
+            <FaWhatsapp size={18} color="#FDF8F1" className="lg:hidden" />
+            <FaWhatsapp size={25} color="#FDF8F1" className="hidden lg:block" />
 
-            <span className="relative z-10 text-sm lg:text-xl font-semibold -tracking-[0.4px] text-[#FDF8F1]">
+            <span className="text-sm lg:text-xl font-semibold -tracking-[0.4px] text-[#FDF8F1]">
               Fale conosco
             </span>
-
-            <Image fill src="/assets/elementos/botao-4.png" alt="Design" />
           </a>
 
           <div className="absolute z-10 right-0 bottom-0 w-full lg:w-[532px] aspect-[363/325] lg:aspect-[532/476] -translate-y-2.5 lg:translate-y-0">
