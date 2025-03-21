@@ -10,18 +10,6 @@ export default function Hero() {
         <span className="justify-center md:flex md:gap-3">
           <span className="block md:inline-block w-fit mx-auto md:mx-0 relative text-[#B27944]">
             Café Especial
-            <svg
-              fill="none"
-              height="10"
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute bottom-0 left-1.5 w-full"
-            >
-              <path
-                d="M0 5.00055C2.5907 5.00055 71.5142 3.00055 105.652 2.00055L223.853 8.00055L270 2.00055"
-                stroke="#B27944"
-                strokeWidth="2.6299"
-              />
-            </svg>
           </span>{" "}
           <span>de Verdade!</span>
         </span>
