@@ -3,17 +3,17 @@ import Image from "next/image";
 export default function Bento() {
   return (
     <section className="pt-6 overflow-hidden lg:pt-20 pb-20 lg:pb-32 px-5 bg-[#251F1A]">
-      <div className="space-y-12 lg:flex lg:justify-between max-w-[1060px] mx-auto">
+      <div className="space-y-12 lg:space-y-0 lg:grid lg:grid-cols-2 max-w-[1060px] mx-auto">
         <Image
-          width={437}
-          height={444}
+          width={526}
+          height={651}
           quality={100}
-          src="/assets/patrao.png"
+          src="/assets/patrao-2.png"
           alt="Bento, fundador do Oxente Café"
-          className="mx-auto lg:mx-0 lg:w-[635px] lg:h-[646px] lg:order-2 lg:translate-x-[100px]"
+          className="w-full mx-auto lg:mx-0 lg:min-w-[526px] lg:translate-x-10 lg:order-2"
         />
 
-        <div className="w-full max-w-[350px] lg:max-w-[412px] space-y-10 mx-auto lg:mx-0 lg:translate-y-10 lg:translate-x-10">
+        <div className="w-full max-w-[350px] lg:max-w-[486px] space-y-10 mx-auto lg:mx-0 lg:translate-y-5">
           <h2 className="font-primary text-[42px]/[42px] lg:text-[52px]/[52px] -tracking-[0.84px] lg:-tracking-[1.04px] text-[#D4AF85]">
             <span className="block max-w-[300px] lg:max-w-[360px]">
               Quem está por <span className="lg:block">trás da Oxente</span>
