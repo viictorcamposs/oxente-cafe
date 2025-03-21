@@ -14,10 +14,9 @@ export default function Bento() {
         />
 
         <div className="w-full max-w-[350px] lg:max-w-[412px] space-y-10 mx-auto lg:mx-0 lg:translate-y-10 lg:translate-x-10">
-          <h2 className="font-primary text-[42px]/[42px] lg:text-[52px]/[52px] -tracking-[0.84px] lg:-tracking-[1.04px] text-[#FAF0E3] lg:text-[#D4AF85]">
-            <span className="lg:hidden">Conheça o Patrão</span>
-            <span className="hidden lg:block max-w-[360px]">
-              Quem está por trás da Oxente
+          <h2 className="font-primary text-[42px]/[42px] lg:text-[52px]/[52px] -tracking-[0.84px] lg:-tracking-[1.04px] text-[#D4AF85]">
+            <span className="block max-w-[300px] lg:max-w-[360px]">
+              Quem está por <span className="lg:block">trás da Oxente</span>
             </span>
           </h2>
 

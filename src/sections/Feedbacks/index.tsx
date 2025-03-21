@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Marquee } from "@/components/magicui/marquee";
+import * as C from "./carousel";
 
 const feedbacks = [
   {
@@ -49,7 +49,7 @@ const feedbacks = [
 
 export default function Feedbacks() {
   return (
-    <section className="relative py-[72px] lg:py-32 bg-[#251F1A] overflow-hidden">
+    <section className="relative pt-[72px] pb-28 lg:py-32 bg-[#251F1A] overflow-hidden">
       <h2 className="font-primary text-center text-[42px]/[42px] lg:text-[52px]/[52px] -tracking-[0.84px] mb-[60px] lg:mb-0 text-[#FCF4E9]">
         Quem já provou,{" "}
         <span className="block lg:inline text-[#B27944]">aprovou!</span>
@@ -59,17 +59,26 @@ export default function Feedbacks() {
         Veja os elogios e avaliações de quem já sentiu esse sabor.
       </p>
 
-      <Marquee pauseOnHover className="[--duration:60s]">
-        {feedbacks.map((feedback) => (
-          <Image
-            key={`feedback_${feedback.id}`}
-            width={feedback.width}
-            height={feedback.height}
-            src={feedback.src}
-            alt="Depoimento"
-          />
-        ))}
-      </Marquee>
+      <C.Carousel opts={{ loop: true }} className="relative pb-8 lg:pb-10">
+        <C.CarouselContent className="-ml-4">
+          {feedbacks.map((feedback) => (
+            <C.CarouselItem key={feedback.id} className="pl-4 w-fit basis-auto">
+              <Image
+                key={`feedback_${feedback.id}`}
+                width={feedback.width}
+                height={feedback.height}
+                src={feedback.src}
+                alt="Depoimento"
+              />
+            </C.CarouselItem>
+          ))}
+        </C.CarouselContent>
+
+        <div className="absolute z-50 w-5 -translate-x-1/2 -bottom-7 left-1/2">
+          <C.CarouselPrevious className="h-12 w-12 bg-[#B27944] hover:bg-[#9c6532] border-[#B27944]" />
+          <C.CarouselNext className="h-12 w-12 bg-[#B27944] hover:bg-[#9c6532] border-[#B27944]" />
+        </div>
+      </C.Carousel>
 
       <div className="hidden lg:block pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#251F1A]" />
       <div className="hidden lg:block pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-[#251F1A]" />

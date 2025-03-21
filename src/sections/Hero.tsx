@@ -8,18 +8,18 @@ export default function Hero() {
       <h1 className="font-primary relative z-10 text-[42px]/[42px] md:text-[58px]/[52px] tracking-[-1.25px] md:tracking-[-1.74px] text-center">
         O Nordeste tem{" "}
         <span className="justify-center md:flex md:gap-3">
-          <span className="block md:inline relative text-[#B27944]">
+          <span className="block md:inline-block w-fit mx-auto md:mx-0 relative text-[#B27944]">
             Café Especial
             <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 201 6"
               fill="none"
-              className="absolute top-[calc(50%+0.875rem)] md:top-[calc(50%+1rem)] left-1/2 -translate-x-1/2 w-[200px] md:w-[275px]"
+              height="10"
+              xmlns="http://www.w3.org/2000/svg"
+              className="absolute bottom-0 left-1.5 w-full"
             >
               <path
-                d="M0 4.10572C1.92123 4.10572 53.0341 2.43715 78.3503 1.60286L158.931 4.10572L200.229 1.60286"
+                d="M0 5.00055C2.5907 5.00055 71.5142 3.00055 105.652 2.00055L223.853 8.00055L270 2.00055"
                 stroke="#B27944"
-                strokeWidth="2.19408"
+                strokeWidth="2.6299"
               />
             </svg>
           </span>{" "}
@@ -108,7 +108,7 @@ export default function Hero() {
 
             <a
               href="https://wa.me/558182799240"
-              className="relative flex items-center justify-center gap-2 w-full max-w-[320px] lg:w-[312px] h-[55px] mx-auto"
+              className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2 w-full max-w-[320px] lg:w-[312px] h-[55px] mx-auto"
             >
               <FaWhatsapp size={20} color="#251F1A" className="relative z-10" />
 

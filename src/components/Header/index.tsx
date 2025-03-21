@@ -52,7 +52,7 @@ export default function Header() {
 
           <a
             href="https://wa.me/558182799240"
-            className="relative flex items-center justify-center gap-2.5 w-[175px] h-[42px] bg-[url('/assets/elementos/botao.png')] bg-cover bg-center"
+            className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2.5 w-[175px] h-[42px] bg-[url('/assets/elementos/botao.png')] bg-cover bg-center"
           >
             <FaWhatsapp size={22} color="#251F1A" />
 

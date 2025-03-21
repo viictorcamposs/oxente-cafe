@@ -77,7 +77,7 @@ const carouselPhotos = [
 export default function About() {
   return (
     <section className="pt-[72px] pb-32 lg:pb-[78px] lg:pt-[104px] px-5 overflow-hidden bg-[#251F1A]">
-      <div className="max-w-[1108px] mx-auto space-y-[72px] lg:flex lg:justify-between">
+      <div className="max-w-[1108px] mx-auto space-y-[72px] lg:grid lg:grid-cols-2">
         <div className="max-w-[350px] lg:max-w-[530px] mx-auto lg:ml-0">
           <h2 className="font-primary text-[42px]/[42px] lg:text-[52px]/[52px] tracking-[-0.84px] text-[#FCF4E9]">
             Quem disse que café{" "}
@@ -118,7 +118,7 @@ export default function About() {
 
           <Link
             href="/sobre-nos"
-            className="relative flex justify-center py-3 max-w-[250px]"
+            className="relative duration-200 hover:scale-105 flex justify-center py-3 max-w-[250px]"
           >
             <span className="relative z-10 text-lg -tracking-[0.9px] font-semibold text-[#FDF8F1]">
               Saiba mais sobre a Oxente

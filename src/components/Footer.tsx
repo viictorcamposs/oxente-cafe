@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { FaRegClock, FaWhatsapp } from "react-icons/fa";
+import { FiPhone } from "react-icons/fi";
 import { MdOutlineMail } from "react-icons/md";
 
 export default function Footer() {
@@ -25,7 +26,7 @@ export default function Footer() {
 
           <a
             href="https://wa.me/558182799240"
-            className="relative z-10 flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px] bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
+            className="relative z-10 duration-200 hover:scale-105 flex items-center justify-center gap-2 lg:gap-3 w-full max-w-[150px] lg:max-w-[220px] h-[40px] lg:h-[60px] bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
           >
             <FaWhatsapp size={18} color="#FDF8F1" className="lg:hidden" />
             <FaWhatsapp size={25} color="#FDF8F1" className="hidden lg:block" />
@@ -67,7 +68,7 @@ export default function Footer() {
               alt="Logo"
             />
 
-            <p className="text-[22px]/[32px] lg:max-w-[335px] text-[#F5EBDF]">
+            <p className="text-lg/[28px] lg:max-w-[335px] text-[#F5EBDF]">
               Valorizamos os grãos da nossa terra, prezamos pela qualidade e
               entregamos um café fresco, autêntico e cheio de identidade.
             </p>
@@ -79,13 +80,6 @@ export default function Footer() {
               >
                 <FaInstagram size={24} color="#251F1A" />
               </a>
-
-              <a
-                href=""
-                className="flex items-center justify-center w-11 h-11 rounded-full bg-[#D4AF85]"
-              >
-                <FaFacebookF size={24} color="#251F1A" />
-              </a>
             </div>
           </div>
 
@@ -93,19 +87,22 @@ export default function Footer() {
             <h4 className="text-lg font-bold">ATENDIMENTO</h4>
 
             <div className="space-y-2">
-              <span className="block text-lg">Chame no WhatsApp</span>
+              <span className="block text-lg">Ligue pra gente</span>
               <div className="flex items-center gap-3">
-                <FaWhatsapp size={28} color="#D4AF85" />
+                <FiPhone size={24} color="#D4AF85" />
                 <strong className="text-lg">81 8279-9240</strong>
               </div>
             </div>
 
             <div className="space-y-2">
               <span className="block text-lg">Mande um email</span>
-              <div className="flex items-center gap-3">
+              <a
+                href="mailto:oxentecafebp@gmail.com"
+                className="flex items-center gap-3"
+              >
                 <MdOutlineMail size={28} color="#D4AF85" />
                 <strong className="text-lg">oxentecafebp@gmail.com</strong>
-              </div>
+              </a>
             </div>
 
             <div className="space-y-2">

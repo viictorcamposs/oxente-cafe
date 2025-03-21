@@ -197,7 +197,7 @@ export default function Methodology() {
 
       <a
         href="https://wa.me/558182799240"
-        className="relative z-10 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
+        className="relative z-10 duration-200 hover:scale-105 flex items-center justify-center gap-3 w-full max-w-[220px] h-[60px] mx-auto bg-[url('/assets/elementos/botao-4.png')] bg-cover bg-center"
       >
         <FaWhatsapp size={24} color="#FDF8F1" />
 

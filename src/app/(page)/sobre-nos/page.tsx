@@ -3,7 +3,6 @@ import Image from "next/image";
 import Hero from "@/sections/sobre-nos/Hero";
 import Brand from "@/sections/sobre-nos/Brand";
 import Bento from "@/sections/sobre-nos/Bento";
-import Methodology from "@/sections/Methodology";
 
 import Carousel from "@/components/Carousel";
 
@@ -124,8 +123,6 @@ export default function AboutUs() {
       <Brand />
 
       <Bento />
-
-      <Methodology />
     </main>
   );
 }

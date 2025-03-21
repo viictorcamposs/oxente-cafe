@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { FaGoogle, FaInstagram } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
@@ -59,7 +59,7 @@ export default function Page() {
 
               <a
                 href="https://wa.me/558182799240"
-                className="relative flex items-center justify-center gap-2.5 w-full max-w-[238px] h-12"
+                className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2.5 w-full max-w-[238px] h-12"
               >
                 <FaWhatsapp className="relative z-10 text-2xl text-[#251F1A]" />
 
@@ -78,7 +78,7 @@ export default function Page() {
 
               <a
                 href="https://instagram.com/oxente.cafe/"
-                className="relative flex items-center justify-center gap-2.5 w-full max-w-[228px] h-12"
+                className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2.5 w-full max-w-[228px] h-12"
               >
                 <FaInstagram className="relative z-10 text-2xl text-[#251F1A]" />
 
@@ -89,7 +89,7 @@ export default function Page() {
                 <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
               </a>
 
-              <a
+              {/* <a
                 href=""
                 className="relative flex items-center justify-center gap-2.5 w-full max-w-[218px] h-12"
               >
@@ -100,7 +100,7 @@ export default function Page() {
                 </span>
 
                 <Image fill src="/assets/elementos/botao-5.png" alt="Design" />
-              </a>
+              </a> */}
             </div>
 
             <div className="space-y-4">
@@ -110,7 +110,7 @@ export default function Page() {
 
               <a
                 href="mailto:oxentecafebp@gmail.com"
-                className="relative flex items-center justify-center gap-2.5 w-full max-w-[208px] h-12"
+                className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2.5 w-full max-w-[208px] h-12"
               >
                 <MdOutlineMail className="relative z-10 text-2xl text-[#251F1A]" />
 
@@ -129,7 +129,7 @@ export default function Page() {
 
               <a
                 href="https://g.co/kgs/PQzjQ5Y"
-                className="relative flex items-center justify-center gap-2.5 w-full max-w-[176px] h-12"
+                className="relative flex duration-200 hover:scale-105 items-center justify-center gap-2.5 w-full max-w-[176px] h-12"
               >
                 <FaGoogle className="relative z-10 text-xl text-[#251F1A]" />
 
